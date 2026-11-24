@@ -31,7 +31,7 @@ jobs:
       contents: write # for peter-evans/create-pull-request to create branch
       pull-requests: write # for peter-evans/create-pull-request to create a PR
     name: copyright update
-    if: github.repository == 'jhipster/jhipster-online'
+    if: github.repository == 'ibrahimhammani/jhipster-online'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
